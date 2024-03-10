@@ -69,3 +69,13 @@ body.dark-mode {
     padding: 10px;
     border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .container {
+        margin-top: 20px; /* Reduce top margin for smaller screens */
+    }
+    #images-container img {
+        width: 100%; /* Make images take full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+}
